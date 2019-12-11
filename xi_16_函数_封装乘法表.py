@@ -2,6 +2,8 @@
 # 定义了函数后之表示这个函数封装了一段代码，运行此py是没有输出结果的
 # 只有在调用时才会执行
 
+name = "我是变量"
+
 
 def multiple_table():
     """
@@ -19,6 +21,5 @@ def multiple_table():
         print("")
         row += 1
 
-
 # 调用  调用必须再函数封装的下方
-multiple_table()
+# multiple_table()
